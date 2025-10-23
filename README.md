@@ -47,9 +47,4 @@ Planned for `mattiamannucci.dev` — currently served at:
 
 ---
 
-## 📄 License
-
-The source code of this portfolio is licensed under the **MIT License**.  
-See the [development repository](https://github.com/mannuccimattia/portfolio-dev) for full details.
-
 Designed and Developed by Mattia Mannucci 2025
