@@ -1,0 +1,170 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "MTG Price Checker",
+            "description": "Applicazione web in React per controllare i prezzi delle carte di Magic: The Gathering utilizzando le API di Scryfall.",
+            "technologies": [
+                "HTML & CSS",
+                "Javascript",
+                "React",
+                "Scryfall API"
+            ],
+            "features": [
+                "Ricerca carte per nome o collector number",
+                "Sfoglia l'elenco completo dei set cartacei di Magic: The Gathering",
+                "Visualizza informazioni dettagliate sulle carte, inclusi i prezzi",
+                "Link ai principali siti di compravendita",
+                "Interfaccia con tema scuro",
+                "Design responsive"
+            ],
+            "cover": "/imgs/price-checker-landing.png",
+            "images": {
+                "frontend": [
+                    {
+                        "id": 1,
+                        "url": "/imgs/price-checker-landing.png"
+                    },
+                    {
+                        "id": 2,
+                        "url": "/imgs/price-checker-result.png"
+                    },
+                    {
+                        "id": 3,
+                        "url": "/imgs/price-checker-sets.png"
+                    }
+                ],
+                "backend": []
+            },
+            "github": {
+                "frontend": null,
+                "backend": null,
+                "source": "https://github.com/mannuccimattia/mtg-card-price-checker"
+            }
+        },
+        {
+            "id": 2,
+            "title": "VinylCollector",
+            "description": "Applicazione web in Laravel per gestire la mia collezione di vinili tramite operazioni CRUD ed esporre API REST per un sito vetrina in React",
+            "technologies": [
+                "HTML & CSS",
+                "Javascript",
+                "React",
+                "PHP",
+                "Laravel"
+            ],
+            "features": [
+                "Registrazione utente e privilegi admin per il backend",
+                "Gestione del database: aggiungi, modifica e rimuovi vinili",
+                "Visualizza informazioni dettagliate sui dischi",
+                "Sito vetrina in modalità guest ",
+                "Link Discogs della copia esatta del disco",
+                "Design responsive"
+            ],
+            "cover": "/imgs/vinyl-frontend-results.png",
+            "images": {
+                "frontend": [
+                    {
+                        "id": 1,
+                        "url": "/imgs/vinyl-frontend-landing.png"
+                    },
+                    {
+                        "id": 2,
+                        "url": "/imgs/vinyl-frontend-results.png"
+                    },
+                    {
+                        "id": 3,
+                        "url": "/imgs/vinyl-frontend-detail.png"
+                    }
+                ],
+                "backend": [
+                    {
+                        "id": 1,
+                        "url": "/imgs/vinyl-backend-landing.png"
+                    },
+                    {
+                        "id": 2,
+                        "url": "/imgs/vinyl-backend-results.png"
+                    },
+                    {
+                        "id": 3,
+                        "url": "/imgs/vinyl-backend-detail.png"
+                    },
+                    {
+                        "id": 4,
+                        "url": "/imgs/vinyl-backend-new-vinyl.png"
+                    },
+                    {
+                        "id": 5,
+                        "url": "/imgs/vinyl-backend-edit-vinyl.png"
+                    },
+                    {
+                        "id": 6,
+                        "url": "/imgs/vinyl-backend-labels.png"
+                    },
+                    {
+                        "id": 7,
+                        "url": "/imgs/vinyl-backend-genres.png"
+                    }
+                ]
+            },
+            "github": {
+                "frontend": "https://github.com/mannuccimattia/vinyl-collector-frontend",
+                "backend": "https://github.com/mannuccimattia/vinyl-collector-backend",
+                "source": null
+            }
+        },
+        {
+            "id": 3,
+            "title": "Boolze",
+            "description": "Progetto di gruppo. Simulazione di un e-commerce in React connesso a un database in MySQL con Node.js",
+            "technologies": [
+                "HTML & CSS",
+                "Javascript",
+                "Node.js",
+                "React",
+                "MySQL"
+            ],
+            "features": [
+                "Sfoglia vini per categoria",
+                "Ricerca avanzata: cerca e filtra vini per produttore, annata, prezzo ecc..",
+                "Categoria Bestseller aggiornata in base agli ordini effettuati",
+                "Riepilogo carrello",
+                "Spedizione gratuita per ordini sopra una cifra limite",
+                "Invio email di conferma ordine",
+                "Assistente AI (Sommelier digitale)"
+            ],
+            "cover": "/imgs/wine-commerce-landing.png",
+            "images": {
+                "frontend": [
+                    {
+                        "id": 1,
+                        "url": "/imgs/wine-commerce-landing.png"
+                    },
+                    {
+                        "id": 2,
+                        "url": "/imgs/wine-commerce-search.png"
+                    },
+                    {
+                        "id": 3,
+                        "url": "/imgs/wine-commerce-detail.png"
+                    },
+                    {
+                        "id": 4,
+                        "url": "/imgs/wine-commerce-cart.png"
+                    },
+                    {
+                        "id": 5,
+                        "url": "/imgs/wine-commerce-chatbot.png"
+                    }
+                ],
+                "backend": []
+            },
+            "github": {
+                "frontend": null,
+                "backend": null,
+                "source": "https://github.com/mannuccimattia/wine-commerce"
+            }
+        }
+    ]
+}
